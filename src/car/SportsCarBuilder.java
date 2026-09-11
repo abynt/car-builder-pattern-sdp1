@@ -49,10 +49,10 @@ public class SportsCarBuilder implements CarBuilder {
 
     private void validate() {
         if (seats <= 0 || seats > MAX_SPORTS_CAR_SEATS) {
-            throw new IllegalArgumentException("A sports car must have between 1 and " + MAX_SPORTS_CAR_SEATS + " seats.");
+            throw new IllegalStateException("A sports car must have between 1 and " + MAX_SPORTS_CAR_SEATS + " seats.");
         }
         if (engine == null) {
-            throw new IllegalArgumentException("Engine type must be set!");
+            throw new IllegalStateException("Engine type must be set!");
         }
     }
 }
