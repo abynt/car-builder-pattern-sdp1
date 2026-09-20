@@ -57,10 +57,10 @@ seaFactory.planDelivery();
 
 ```java
 Application windowsApplication = new Application(new WindowsGUIFactory());
-Application macApplication = new Application(new MacGUIFactory());
+Application macOSApplication = new Application(new MacOSGUIFactory());
 
 windowsApplication.render();
-macApplication.render();
+macOSApplication.render();
 ```
 
 `Application` receives a factory through its constructor and uses it to create both a button and a checkbox. Each supplied factory produces components from its own family. Switching the factory changes the family without changing `Application`.
