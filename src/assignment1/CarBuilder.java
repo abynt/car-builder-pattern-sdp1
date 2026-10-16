@@ -1,4 +1,4 @@
-package car;
+package assignment1;
 
 public interface CarBuilder {
     CarBuilder reset();
