@@ -6,9 +6,6 @@ public class Client {
     public static void main(String[] args) {
         HomeTheaterFacade theater = new HomeTheaterFacade();
         String movie = "Spider-Man";
-        if (args.length > 0) {
-            movie = args[0];
-        }
 
         System.out.println("Before: " + theater.status());
         try {
