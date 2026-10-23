@@ -12,6 +12,9 @@ public class Main {
         System.out.printf("%.1f - %.1f = %.1f\n", left, right, calculator.calculate(left, right));
 
         calculator.setStrategy(new MultiplyStrategy());
-        System.out.printf("%.1f * %.1f = %.1f", left, right, calculator.calculate(left, right));
+        System.out.printf("%.1f * %.1f = %.1f\n", left, right, calculator.calculate(left, right));
+
+        calculator.setStrategy(new DivideStrategy());
+        System.out.printf("%.1f / %.1f = %.1f", left, right, calculator.calculate(left, right));
     }
 }
