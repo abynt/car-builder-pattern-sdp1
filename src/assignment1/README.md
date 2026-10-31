@@ -2,7 +2,7 @@
 
 ## 1. What the product is
 
-A Java implementation of the Builder pattern for car configuration. 
+A Java implementation of the Builder pattern for assignment1 configuration. 
 There is a single Product type (`Car`), and two ConcreteBuilders.
 Rather than relying on a constructor with a long list of parameters (a telescoping constructor), object assembly is broken into small, chainable steps, and the resulting Car is immutable once built.
 
@@ -11,7 +11,7 @@ Rather than relying on a constructor with a long list of parameters (a telescopi
 ## 2. Project structure
 
 ```
-src/car/
+src/assignment1/builder
 ├── EngineType.java       enum - no magic strings
 ├── Car.java              Product (immutable)
 ├── CarBuilder.java       Builder interface
@@ -52,5 +52,5 @@ Requires JDK 17+ and IntelliJ IDEA (recommended) or terminal
 
 1. Open the project directory in IntelliJ IDEA.
 2. Set Project SDK to Java 17 (`File` → `Project Structure` → `Project`).
-3. Navigate to `src/car/Main.java`.
+3. Navigate to `src/assignment1/Main.java`.
 4. Run via the green **Run** arrow or `Shift + F10`.

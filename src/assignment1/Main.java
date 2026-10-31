@@ -1,5 +1,7 @@
 package assignment1;
 
+import assignment1.builder.*;
+
 public class Main {
     public static void main(String[] args) {
         CarDirector director = new CarDirector();

@@ -1,4 +1,4 @@
-package assignment1;
+package assignment1.builder;
 
 public class Car {
     private final int seats;

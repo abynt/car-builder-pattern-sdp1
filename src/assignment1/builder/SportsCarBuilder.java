@@ -1,4 +1,4 @@
-package assignment1;
+package assignment1.builder;
 
 public class SportsCarBuilder implements CarBuilder {
     private static final int MAX_SPORTS_CAR_SEATS = 4;
